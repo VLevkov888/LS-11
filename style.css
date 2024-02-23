@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+:root {
+    --green: #156963;
+}
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header__logo {
+    margin-top: 40px;
+    padding-left: 56px;
+    
+}
+
+
+.header__nav {
+    padding-right: 56px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__title {
+    padding: 8px 29.5px;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;    
+}
+
+.header__btn {
+    padding: 8px 20px;
+    color: white;
+    background:  var(--green);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;    
+}
+.welcome__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome__title h1 {
+    color: var(--green);
+    font-family: Montserrat;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 83px;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 523px;
+    margin-top: 197px;
+}
+.welcome__text {
+     max-width: 493px;
+     margin-top: 24px;
+     color: rgb(44, 21, 0);
+     font-family: Montserrat;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 32px;
+     letter-spacing: 0%;
+     text-align: center     
+
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 323px;
+    margin-left: 56px;
+    margin-right: 56px;
+    margin-bottom: 80px;
+
+}
+.col {
+    background: #FFFFFF;
+    max-width: 268px;
+    height: 155px;
+}
+.col__title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    margin-top: 22px;
+    margin-left: 16px;
+}
+.word1 {
+    color: var(--green);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.word {
+    color: var(--green);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 137px;
+}
+.desc__content {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 16px 16px 21px 16px;
+    color: rgb(44, 21, 0);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 236px    ;
+}
+.dollar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.featured__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.featured__title {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+.col__featured {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background: #FFFFFF;
+    margin-top: 47px;
+    gap: 20px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 61px;
+}
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1168px;
+    background: #F3F4F6;
+    gap: 43px;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: rgb(44, 21, 0);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0%; 
+       
+}
+.footer__btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 32px;
+   margin-left: -350px;
+    
+}
+.btn {
+    padding: 10px 28px;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    background: var(--green);
+    border: 1px solid rgb(21, 105, 99);
+    color: #FAFEFE;
+    
+}
+
+
+
+
+
